@@ -1,0 +1,27 @@
+
+
+Started GET "/" for 93.147.208.41 at 2016-11-06 18:36:46 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 704ms (Views: 695.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +0000
