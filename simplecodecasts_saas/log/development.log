@@ -25,3 +25,129 @@ Started GET "/assets/pages.js?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +
 
 
 Started GET "/assets/application.js?body=1" for 93.147.208.41 at 2016-11-06 18:36:47 +0000
+
+
+Started GET "/" for 93.147.208.41 at 2016-11-06 18:57:09 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1413ms (Views: 1404.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.208.41 at 2016-11-06 18:57:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.208.41 at 2016-11-06 18:57:11 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.208.41 at 2016-11-06 18:57:11 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.208.41 at 2016-11-06 18:57:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.208.41 at 2016-11-06 18:57:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.208.41 at 2016-11-06 18:57:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.208.41 at 2016-11-06 18:57:12 +0000
+
+
+Started GET "/" for 93.147.208.41 at 2016-11-06 19:01:42 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 73ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.208.41 at 2016-11-06 19:01:42 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.208.41 at 2016-11-06 19:01:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.208.41 at 2016-11-06 19:01:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.208.41 at 2016-11-06 19:01:43 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.208.41 at 2016-11-06 19:01:43 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.208.41 at 2016-11-06 19:01:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.208.41 at 2016-11-06 19:01:43 +0000
+
+
+Started GET "/" for 93.147.208.41 at 2016-11-06 19:05:17 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 239ms (Views: 238.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 93.147.208.41 at 2016-11-06 19:05:17 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:17 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.208.41 at 2016-11-06 19:05:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:17 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.208.41 at 2016-11-06 19:05:18 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.208.41 at 2016-11-06 19:06:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.208.41 at 2016-11-06 19:06:06 +0000
