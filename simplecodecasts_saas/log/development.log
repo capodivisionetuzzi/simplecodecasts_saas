@@ -3603,3 +3603,72 @@ Started GET "/assets/application.js?body=1" for 93.147.208.41 at 2016-11-22 22:5
 
 
 Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.208.41 at 2016-11-22 22:55:15 +0000
+
+
+Started GET "/" for 93.147.208.41 at 2016-11-22 22:58:27 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1170ms (Views: 1169.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 93.147.208.41 at 2016-11-22 22:58:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.208.41 at 2016-11-22 22:58:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:28 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.208.41 at 2016-11-22 22:58:29 +0000
