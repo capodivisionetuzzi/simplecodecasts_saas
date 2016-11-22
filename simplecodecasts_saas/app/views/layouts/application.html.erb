@@ -16,8 +16,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <i class="fa fa-users"></i>
-      <%= link_to 'Genius CLOUD', root_path, class: 'navbar-brand' %>
+      <%= link_to root_path, class: 'navbar-brand' do %>
+        <%= icon('cloud') %>
+        Genius CLOUD
+      <% end %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-right">
