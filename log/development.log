@@ -6431,3 +6431,82 @@ Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.194.114 at 2016-11-
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 93.147.194.114 at 2016-11-30 22:56:00 +0000
+
+
+Started GET "/" for 2.118.77.14 at 2016-12-02 13:30:16 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 226ms (Views: 217.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:17 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:18 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 2.118.77.14 at 2016-12-02 13:30:18 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 2.118.77.14 at 2016-12-02 13:30:18 +0000
+
+
+Started GET "/contacts/new" for 2.118.77.14 at 2016-12-02 13:30:19 +0000
+Processing by ContactsController#new as HTML
+  Rendered contacts/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 212ms (Views: 208.8ms | ActiveRecord: 0.4ms)
