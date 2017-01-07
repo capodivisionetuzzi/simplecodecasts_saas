@@ -6806,3 +6806,219 @@ Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.210.17 at 2017-01
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 93.147.210.17 at 2017-01-07 09:49:52 +0000
+
+
+Started GET "/" for 93.147.210.17 at 2017-01-07 09:52:47 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 93.147.210.17 at 2017-01-07 09:52:48 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.210.17 at 2017-01-07 09:52:48 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.210.17 at 2017-01-07 09:52:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:50 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:51 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:51 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:51 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:52 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:52 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:52 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:52 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:52 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:53 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:53 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:53 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:54 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:54 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.210.17 at 2017-01-07 09:52:54 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 93.147.210.17 at 2017-01-07 09:52:54 +0000
+
+
+Started GET "/" for 93.147.210.17 at 2017-01-07 09:53:56 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.210.17 at 2017-01-07 09:53:57 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:58 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:59 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:59 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 93.147.210.17 at 2017-01-07 09:53:59 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 93.147.210.17 at 2017-01-07 09:53:59 +0000
+
+
+Started GET "/" for 93.147.210.17 at 2017-01-07 09:54:55 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 82ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 93.147.210.17 at 2017-01-07 09:54:55 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:56 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:56 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:56 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:56 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:57 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.210.17 at 2017-01-07 09:54:58 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.210.17 at 2017-01-07 09:55:03 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 93.147.210.17 at 2017-01-07 09:55:04 +0000
