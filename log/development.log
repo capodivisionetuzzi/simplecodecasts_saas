@@ -7022,3 +7022,151 @@ Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.210.17 at 2017-01
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 93.147.210.17 at 2017-01-07 09:55:04 +0000
+
+
+Started GET "/users/sign_in" for 93.147.210.17 at 2017-01-07 09:56:25 +0000
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"FmJ58C+O0vZdGHUYUI5Mlm4rvlUnKDjEHghBN4rIR1Q="}
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 125ms (Views: 115.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 93.147.210.17 at 2017-01-07 09:56:26 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.210.17 at 2017-01-07 09:56:26 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:27 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:28 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:28 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:28 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:28 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:31 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 93.147.210.17 at 2017-01-07 09:56:32 +0000
+
+
+Started GET "/users/sign_up" for 93.147.210.17 at 2017-01-07 09:56:38 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"authenticity_token"=>"FmJ58C+O0vZdGHUYUI5Mlm4rvlUnKDjEHghBN4rIR1Q="}
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 91ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 93.147.210.17 at 2017-01-07 09:56:40 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.210.17 at 2017-01-07 09:56:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.210.17 at 2017-01-07 09:56:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:41 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:42 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:43 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:43 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:43 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:43 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:43 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:44 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:44 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:44 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:45 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:45 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:45 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:45 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.210.17 at 2017-01-07 09:56:45 +0000
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.7.0" for 93.147.210.17 at 2017-01-07 09:56:46 +0000
