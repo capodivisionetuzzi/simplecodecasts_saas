@@ -9638,3 +9638,137 @@ Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.202.167 at 2017-0
 
 
 Started GET "/assets/pages.js?body=1" for 93.147.202.167 at 2017-01-15 20:22:30 +0000
+
+
+Started POST "/users/2/profile" for 93.147.202.167 at 2017-01-15 20:46:18 +0000
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rCAOB6SHRk+CAyF+9yczKv4YGOHo1pWt2Mtin0KG2K8=", "profile"=>{"first_name"=>"Thomas", "last_name"=>"Barbalonga", "job_title"=>"Neofita", "phone_number"=>"+39 0541 859411", "contact_email"=>"t.barbalonga@mec3.it", "description"=>"Profilo di merda"}, "commit"=>"Update Profile", "user_id"=>"2"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mProfile Load (0.5ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 2]]
+Completed 500 Internal Server Error in 51ms
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/profiles_controller.rb:11:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.2ms)
+
+
+Started POST "/users/2/profile" for 93.147.202.167 at 2017-01-15 20:47:48 +0000
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rCAOB6SHRk+CAyF+9yczKv4YGOHo1pWt2Mtin0KG2K8=", "profile"=>{"first_name"=>"Thomas", "last_name"=>"Barbalonga", "job_title"=>"Neofita", "phone_number"=>"+39 0541 859411", "contact_email"=>"t.barbalonga@mec3.it", "description"=>"Profilo di merda"}, "commit"=>"Update Profile", "user_id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mProfile Load (0.3ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "profiles" ("contact_email", "created_at", "description", "first_name", "job_title", "last_name", "phone_number", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["contact_email", "t.barbalonga@mec3.it"], ["created_at", "2017-01-15 20:47:48.670028"], ["description", "Profilo di merda"], ["first_name", "Thomas"], ["job_title", "Neofita"], ["last_name", "Barbalonga"], ["phone_number", "+39 0541 859411"], ["updated_at", "2017-01-15 20:47:48.670028"], ["user_id", 2]]
+  [1m[35m (15.3ms)[0m  commit transaction
+Redirected to https://demo-project2-capodivisionetuzzi.c9users.io/users/2
+Completed 302 Found in 40ms (ActiveRecord: 17.9ms)
+
+
+Started GET "/users/2" for 93.147.202.167 at 2017-01-15 20:47:49 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (81.2ms)
+Completed 500 Internal Server Error in 94ms
+
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x000000043c5790>:0x000000043c4930>
+Did you mean?  @user):
+    1: <%= user %>
+  app/views/users/show.html.erb:1:in `_app_views_users_show_html_erb___3552244769869747074_35526260'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.4ms)
+
+
+Started POST "/users/2/profile" for 93.147.202.167 at 2017-01-15 20:48:41 +0000
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rCAOB6SHRk+CAyF+9yczKv4YGOHo1pWt2Mtin0KG2K8=", "profile"=>{"first_name"=>"Thomas", "last_name"=>"Barbalonga", "job_title"=>"Neofita", "phone_number"=>"+39 0541 859411", "contact_email"=>"t.barbalonga@mec3.it", "description"=>"Profilo di merda"}, "commit"=>"Update Profile", "user_id"=>"2"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mProfile Load (0.5ms)[0m  [1mSELECT  "profiles".* FROM "profiles"  WHERE "profiles"."user_id" = ? LIMIT 1[0m  [["user_id", 2]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mUPDATE "profiles" SET "updated_at" = ?, "user_id" = ? WHERE "profiles"."id" = 1[0m  [["updated_at", "2017-01-15 20:48:41.395692"], ["user_id", nil]]
+  [1m[35m (24.1ms)[0m  commit transaction
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "profiles" ("contact_email", "created_at", "description", "first_name", "job_title", "last_name", "phone_number", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["contact_email", "t.barbalonga@mec3.it"], ["created_at", "2017-01-15 20:48:41.471120"], ["description", "Profilo di merda"], ["first_name", "Thomas"], ["job_title", "Neofita"], ["last_name", "Barbalonga"], ["phone_number", "+39 0541 859411"], ["updated_at", "2017-01-15 20:48:41.471120"], ["user_id", 2]]
+  [1m[36m (32.8ms)[0m  [1mcommit transaction[0m
+Redirected to https://demo-project2-capodivisionetuzzi.c9users.io/users/2
+Completed 302 Found in 129ms (ActiveRecord: 61.0ms)
+
+
+Started GET "/users/2" for 93.147.202.167 at 2017-01-15 20:48:42 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 213ms (Views: 208.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 93.147.202.167 at 2017-01-15 20:48:42 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 93.147.202.167 at 2017-01-15 20:48:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/users.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 93.147.202.167 at 2017-01-15 20:48:43 +0000
